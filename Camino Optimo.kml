@@ -184,7 +184,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.612022,-33.497083,0.000000 -70.612878,-33.499809,0.000000</coordinates>
+        <coordinates>-70.612977,-33.498948,0.000000 -70.615364,-33.498492,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_1">
@@ -192,7 +192,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.612878,-33.499809,0.000000 -70.613712,-33.497114,0.000000</coordinates>
+        <coordinates>-70.615364,-33.498492,0.000000 -70.613712,-33.497114,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_2">
@@ -200,7 +200,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.613712,-33.497114,0.000000 -70.610021,-33.500299,0.000000</coordinates>
+        <coordinates>-70.613712,-33.497114,0.000000 -70.612022,-33.497083,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_3">
@@ -208,7 +208,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.610021,-33.500299,0.000000 -70.609474,-33.499785,0.000000</coordinates>
+        <coordinates>-70.612022,-33.497083,0.000000 -70.610660,-33.497817,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_4">
@@ -216,7 +216,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.609474,-33.499785,0.000000 -70.614409,-33.497615,0.000000</coordinates>
+        <coordinates>-70.610660,-33.497817,0.000000 -70.609265,-33.496859,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_5">
@@ -224,7 +224,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.614409,-33.497615,0.000000 -70.610681,-33.500492,0.000000</coordinates>
+        <coordinates>-70.609265,-33.496859,0.000000 -70.609994,-33.498250,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_6">
@@ -232,7 +232,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.610681,-33.500492,0.000000 -70.609265,-33.496859,0.000000</coordinates>
+        <coordinates>-70.609994,-33.498250,0.000000 -70.609474,-33.499785,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_7">
@@ -240,7 +240,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.609265,-33.496859,0.000000 -70.610660,-33.497817,0.000000</coordinates>
+        <coordinates>-70.609474,-33.499785,0.000000 -70.610681,-33.500492,0.000000</coordinates>
       </LineString>
     </Placemark>
     <Placemark id="p_8">
@@ -248,47 +248,7 @@
       <visibility>1</visibility>
       <styleUrl>#line_styles</styleUrl>
       <LineString>
-        <coordinates>-70.610660,-33.497817,0.000000 -70.615364,-33.498492,0.000000</coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark id="p_9">
-      <name>path_9</name>
-      <visibility>1</visibility>
-      <styleUrl>#line_styles</styleUrl>
-      <LineString>
-        <coordinates>-70.615364,-33.498492,0.000000 -70.609994,-33.498250,0.000000</coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark id="p_10">
-      <name>path_10</name>
-      <visibility>1</visibility>
-      <styleUrl>#line_styles</styleUrl>
-      <LineString>
-        <coordinates>-70.609994,-33.498250,0.000000 -70.614847,-33.498078,0.000000</coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark id="p_11">
-      <name>path_11</name>
-      <visibility>1</visibility>
-      <styleUrl>#line_styles</styleUrl>
-      <LineString>
-        <coordinates>-70.614847,-33.498078,0.000000 -70.612977,-33.498948,0.000000</coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark id="p_12">
-      <name>path_12</name>
-      <visibility>1</visibility>
-      <styleUrl>#line_styles</styleUrl>
-      <LineString>
-        <coordinates>-70.612977,-33.498948,0.000000 -70.610966,-33.498881,0.000000</coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark id="p_13">
-      <name>path_13</name>
-      <visibility>1</visibility>
-      <styleUrl>#line_styles</styleUrl>
-      <LineString>
-        <coordinates>-70.610966,-33.498881,0.000000 -70.612022,-33.497083,0.000000</coordinates>
+        <coordinates>-70.610681,-33.500492,0.000000 -70.612977,-33.498948,0.000000</coordinates>
       </LineString>
     </Placemark>
   </Document>

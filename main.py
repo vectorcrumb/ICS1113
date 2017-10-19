@@ -20,13 +20,6 @@ def subtourelim(model, where):
         selected = tuplelist((i, j) for i, j in model._vars.keys() if vals[i, j] > 0.5)
         # Find shortest cycle in selected edges list
         tour = subtour(selected)
-        if tour == []:
-            active_nodes = list(set([n[0] for n in selected]))
-            for i in active_nodes:
-                model.cbLazy(model._vars.sum(i, '*') == 2)
-        else:
-            for i in tour:
-                model.cbLazy(model._vars.sum(i, '*') == 2)
         if len(tour) < n:
             model.cbLazy(quicksum(model._vars[i, j] for i, j in itertools.combinations(tour, 2)) <= len(tour) - 1)
 # Find shortest subtour given a tuplelist of edges
@@ -122,58 +115,79 @@ n = len(distances)
 if n != len(en):
     print("Mismatch between parameter and nodes dimensionality!")
     exit(-1)
-# Take subdiagonal triangular matrix and fit into dictionary
-# according to the Gurobi implementation of TSP.
-dist = {(i, j): distances[i][j]
-        for i in range(n) for j in range(i)}
 # Definition of parameters
 # K = k
 # For nice simulation purposes
-K = (sum(di) + sum(Di))/2
+K = int((sum(di) + sum(Di))/2) - 100
 velocity = 3
 T = tau * velocity
 cost_to_dist = velocity/alphaval
+bigM = K
 # Typical cost values
 # cost_values = [pi[i]*(1+ei[i][0]) for i in range(n)]
 # Test with transforming costs to distance units (km)
-cost_values = [pi[i]*(1+ei[i][0])*cost_to_dist for i in range(n)]
+cost_values = [pi[i]*(1+ei[i][0])for i in range(n)]
 costs = {i: cost_values[i] for i in range(n)}
+dist_values = [x*alphaval/velocity + alphaval*ci2[i] for i, x in enumerate(distances[1])]
+dists = {i: dist_values[i] for i in range(n)}
 
+# Problem 1 Model - Decide sale nodes
+nod_m = Model()
+# Define variables
+sales_vars = nod_m.addVars(costs.keys(), lb=0, obj=costs, vtype=GRB.INTEGER, name='z')
+visit_vars = nod_m.addVars(dists.keys(), obj=dists, vtype=GRB.BINARY, name='d')
+# R1 Add total sale constraints to sales
+nod_m.addConstr(quicksum(sales_vars[i] for i in range(n)) <= K, name='max_stock')
+# R2 Add permanent upper bound constraint
+nod_m.addConstrs(sales_vars[i] <= Di[i] for i in range(n))
+# R3 Add activation constraints
+nod_m.addConstrs(bigM*visit_vars[i] >= sales_vars[i] for i in range(n))
+# R4 Add lower bound upon activation constraint
+nod_m.addConstrs(sales_vars[i] >= di[i]*visit_vars[i] for i in range(n))
+# R5 Force visit to entry node
+nod_m.addConstr(visit_vars[1] >= 1, name='entry')
+# Set model objectives and optimize
+nod_m.setObjective(sales_vars.prod(costs) - visit_vars.prod(dists), GRB.MAXIMIZE)
+nod_m.optimize()
+print("Finished Problem 1")
+
+## Problem 2 Model - TSP among sale nodes
+# Redefine nodes
+to_visit_nodes = [int(d) for d in nod_m.getAttr('x', visit_vars).values()]
+features = {key: features[key] for i, key in enumerate(sorted(features)) if to_visit_nodes[i] > 0}
+# Calculate inter-node distances
+distances = []
+for k1 in sorted(features):
+    k1dists = []
+    for k2 in sorted(features):
+        k1dists.append(distance(features[k1][1], features[k1][0], features[k2][1], features[k2][0]))
+    distances.append(k1dists)
+# Redefine node count
+n = len(distances)
+# Take subdiagonal triangular matrix and fit into dictionary according to the Gurobi implementation of TSP.
+dist = {(i, j): distances[i][j]
+        for i in range(n) for j in range(i)}
 # Create models and variables
-m = Model()
-sales_vars = m.addVars(costs.keys(), lb=di, ub=Di, obj=costs, vtype=GRB.INTEGER, name='p')
-variables = m.addVars(dist.keys(), obj=dist, vtype=GRB.BINARY, name='e')
+tsp_m = Model()
+variables = tsp_m.addVars(dist.keys(), obj=dist, vtype=GRB.BINARY, name='e')
 for i, j in variables.keys():
     variables[j, i] = variables[i, j]  # Edge in opposite direction is the same variable
-
 # Add 2nd degree constraint to each node
-# m.addConstrs(variables.sum(i, '*') == 2 for i in range(n))
-m.addConstr(variables.sum(1,'*') == 2, name='entry')
-# Add total sale constraints to sales
-# m.addConstr(sales_vars.sum(i) <= K for i in range(n))
-m.addConstr(quicksum(sales_vars[i] for i in range(n)) <= K, name='max_stock')
+tsp_m.addConstrs(variables.sum(i,'*') == 2 for i in range(n))
 # Add time constraint
-m.addConstr(quicksum(variables[i,j]*distances[i][j] for i,j in dist) <= T, name='max_time')
-
+# tsp_m.addConstr(quicksum(variables[i, j] * distances[i][j] for i, j in dist) <= T, name='max_time')
 # Optimize model
-m._vars = variables
-m.Params.lazyConstraints = 1
-m.setObjective(sales_vars.prod(costs), GRB.MAXIMIZE)
-
-m.optimize(subtourelim)
-
-print("Difference from upper bound:", sum(list((list(m.getAttr('x', sales_vars).values())[i] - Di[i] for i in range(n)))))
-print("Difference from lower bound:", sum(list((list(m.getAttr('x', sales_vars).values())[i] - di[i] for i in range(n)))))
-print("Total sold:", sum(m.getAttr('x', sales_vars).values()))
-
-vals = m.getAttr('x', variables)
+tsp_m._vars = variables
+tsp_m.Params.lazyConstraints = 1
+tsp_m.optimize(subtourelim)
+# Obtain results from model
+vals = tsp_m.getAttr('x', variables)
 selected = tuplelist((i, j) for i, j in vals.keys() if vals[i, j] > 0.5)
-
 tour = subtour(selected)
-# assert len(tour) == n
+assert len(tour) == n
 print('Optimal tour: {}'.format(str(tour)))
-print('Optimal cost: {}'.format(m.objVal))
-
+print('Optimal cost: {}'.format(tsp_m.objVal))
+# Display order of best tour
 ord_features = [sorted(features)[i] for i in tour]
 print('Order of nodes:', *ord_features, sep='\n - ')
 
@@ -196,6 +210,6 @@ for i in range(len(ord_features)):
     document.append(place)
 # Display generated KML for debugging
 # print(kml_doc.to_string(prettyprint=True))
-# with open('Camino Optimo.kml', 'w') as file:
-#     file.write(kml_doc.to_string(prettyprint=True))
+with open('Camino Optimo.kml', 'w') as file:
+    file.write(kml_doc.to_string(prettyprint=True))
 print("\n\nFinished!")
