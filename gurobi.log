@@ -1,0 +1,3015 @@
+
+Gurobi 7.5.1 (win64, Python) logging started 10/17/17 14:51:25
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+
+Gurobi 7.5.1 (win64, Python) logging started 10/17/17 14:55:51
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 17 rows, 136 columns and 272 nonzeros
+Variable types: 0 continuous, 136 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 2e+00]
+Presolve time: 0.00s
+Presolved: 17 rows, 136 columns, 272 nonzeros
+Variable types: 0 continuous, 136 integer (136 binary)
+
+Root relaxation: objective 1.767238e+00, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.76724    0    6          -    1.76724      -     -    0s
+*    0     0               0       1.8639784    1.86398  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1.86398 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.863978360386e+00, best bound 1.863978360386e+00, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/17/17 22:54:39
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 17 rows, 136 columns and 272 nonzeros
+Variable types: 0 continuous, 136 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 2e+00]
+Presolve time: 0.03s
+Presolved: 17 rows, 136 columns, 272 nonzeros
+Variable types: 0 continuous, 136 integer (136 binary)
+
+Root relaxation: objective 1.767238e+00, 23 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.76724    0    6          -    1.76724      -     -    0s
+*    0     0               0       1.8639784    1.86398  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.18 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1.86398 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.863978360386e+00, best bound 1.863978360386e+00, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 18:06:55
+
+Academic license - for non-commercial use only
+Error: it isn't a multi-objective model
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:49:50
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:51:12
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:53:37
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:54:00
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:55:15
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:56:06
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:57:00
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 137 columns and 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 3e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.03s
+Presolved: 17 rows, 137 columns, 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+
+Root relaxation: objective 3.367672e+02, 23 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  336.76724    0    6          -  336.76724      -     -    0s
+*    0     0               0     336.8639784  336.86398  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.21 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 336.864 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.368639783604e+02, best bound 3.368639783604e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:59:24
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:59:33
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 137 columns and 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 137 columns, 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+
+Root relaxation: objective 9.047672e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  904.76724    0    6          -  904.76724      -     -    0s
+*    0     0               0     904.8639784  904.86398  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 904.864 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.048639783604e+02, best bound 9.048639783604e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 20:59:42
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 137 columns and 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 3e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 137 columns, 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+
+Root relaxation: objective 1.606767e+03, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1606.76724    0    6          - 1606.76724      -     -    0s
+*    0     0               0    1606.8639784 1606.86398  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1606.86 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.606863978360e+03, best bound 1.606863978360e+03, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:00:56
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 137 columns and 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 137 columns, 272 nonzeros
+Variable types: 0 continuous, 137 integer (136 binary)
+
+Root relaxation: objective 1.341767e+03, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1341.76724    0    6          - 1341.76724      -     -    0s
+*    0     0               0    1341.8639784 1341.86398  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 1341.86 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.341863978360e+03, best bound 1.341863978360e+03, gap 0.0000%
+Error: it isn't a multi-objective model
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:02:04
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:02:34
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 4e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.898577e+04, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 18985.7672    0    6          - 18985.7672      -     -    0s
+*    0     0               0    18985.863978 18985.8640  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 18985.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.898586397836e+04, best bound 1.898586397836e+04, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:11:48
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 4e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.935962e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -193596.23    0    6          - -193596.23      -     -    0s
+*    0     0               0    -193596.1360 -193596.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -193596 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.935961360216e+05, best bound -1.935961360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:16:07
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -2.076552e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -207655.23    0    6          - -207655.23      -     -    0s
+*    0     0               0    -207655.1360 -207655.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -207655 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.076551360216e+05, best bound -2.076551360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:23:02
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:31:36
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.993652e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -199365.23    0    6          - -199365.23      -     -    0s
+*    0     0               0    -199365.1360 -199365.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -199365 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.993651360216e+05, best bound -1.993651360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:35:07
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:37:32
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 425 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 1e+04]
+Presolve removed 18 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.912832e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -191283.23    0    6          - -191283.23      -     -    0s
+*    0     0               0    -191283.1360 -191283.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -191283 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.912831360216e+05, best bound -1.912831360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:39:07
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 425 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 1e+04]
+Presolve removed 18 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -2.028902e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -202890.23    0    6          - -202890.23      -     -    0s
+*    0     0               0    -202890.1360 -202890.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -202890 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.028901360216e+05, best bound -2.028901360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:40:01
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 425 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 18 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.964202e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -196420.23    0    6          - -196420.23      -     -    0s
+*    0     0               0    -196420.1360 -196420.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -196420 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.964201360216e+05, best bound -1.964201360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:41:24
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 425 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 18 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.823832e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -182383.23    0    6          - -182383.23      -     -    0s
+*    0     0               0    -182383.1360 -182383.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -182383 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.823831360216e+05, best bound -1.823831360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 21:43:28
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 425 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Error: it isn't a multi-objective model
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:40:04
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 425 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [4e-02, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+  RHS range        [2e+00, 5e+02]
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:41:35
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:42:31
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:43:09
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:44:26
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:46:12
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:46:16
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 4e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:47:26
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.964492e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -196449.23    0    6          - -196449.23      -     -    0s
+*    0     0               0    -196449.1360 -196449.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -196449 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.964491360216e+05, best bound -1.964491360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:47:44
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 5e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -2.046392e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -204639.23    0    6          - -204639.23      -     -    0s
+*    0     0               0    -204639.1360 -204639.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -204639 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.046391360216e+05, best bound -2.046391360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:48:41
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 4e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.628912e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -162891.23    0    6          - -162891.23      -     -    0s
+*    0     0               0    -162891.1360 -162891.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -162891 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.628911360216e+05, best bound -1.628911360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:48:56
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective -1.889422e+05, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -188942.23    0    6          - -188942.23      -     -    0s
+*    0     0               0    -188942.1360 -188942.14  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -188942 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.889421360216e+05, best bound -1.889421360216e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:50:05
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.232177e+04, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 12321.7672    0    6          - 12321.7672      -     -    0s
+*    0     0               0    12321.863978 12321.8640  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Zero half: 2
+  Lazy constraints: 4
+
+Explored 1 nodes (27 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 12321.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.232186397836e+04, best bound 1.232186397836e+04, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:53:03
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.889440e+05, 21 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    188944.00000 188944.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (65 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 188944 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.889440000000e+05, best bound 1.889440000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:53:29
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 153 columns and 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 153 columns, 272 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.889440e+05, 21 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    188944.00000 188944.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (65 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 188944 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.889440000000e+05, best bound 1.889440000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/18/17 23:58:00
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 00:00:08
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 306 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 4e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.04s
+Presolved: 18 rows, 153 columns, 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.442310e+05, 27 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    144231.00000 144231.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (59 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 144231 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.442310000000e+05, best bound 1.442310000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 00:00:26
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 306 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 4e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 18 rows, 153 columns, 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.442310e+05, 27 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    144231.00000 144231.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (59 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 144231 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.442310000000e+05, best bound 1.442310000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 01:49:40
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 306 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 4e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 18 rows, 153 columns, 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.442310e+05, 27 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    144231.00000 144231.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (59 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 144231 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.442310000000e+05, best bound 1.442310000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 01:50:48
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 306 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 4e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 18 rows, 153 columns, 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.442310e+05, 27 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    144231.00000 144231.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (59 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 144231 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.442310000000e+05, best bound 1.442310000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:00:25
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 35 rows, 153 columns and 306 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 3e+02]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [2e+00, 4e+02]
+Presolve removed 17 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 18 rows, 153 columns, 289 nonzeros
+Variable types: 0 continuous, 153 integer (136 binary)
+
+Root relaxation: objective 1.442310e+05, 27 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    144231.00000 144231.000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 3
+
+Explored 0 nodes (59 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 144231 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.442310000000e+05, best bound 1.442310000000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:34:03
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+01, 7e+02]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 1e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:35:59
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+01, 7e+02]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 1e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:36:10
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:36:56
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 14 rows, 105 columns and 182 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+01, 7e+02]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 2e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 14 rows, 104 columns, 182 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 3.466540e+03, 15 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    3466.5400000 3466.54000  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 2
+
+Explored 0 nodes (31 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 3466.54 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.466540000000e+03, best bound 3.466540000000e+03, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:41:24
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 14 rows, 105 columns and 182 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 2e+00]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 14 rows, 104 columns, 182 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 1.610087e+05, 15 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    161008.68000 161008.680  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 2
+
+Explored 0 nodes (29 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 161009 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.610086800000e+05, best bound 1.610086800000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:43:44
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 1e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:44:27
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:46:07
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:47:42
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 14 rows, 104 columns, 182 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 1.610087e+05, 15 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    161008.68000 161008.680  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 2
+
+Explored 0 nodes (29 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 161009 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.610086800000e+05, best bound 1.610086800000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:52:42
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:53:50
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.04s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 1.423265e+05, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    142326.54000 142326.540  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142327 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.423265400000e+05, best bound 1.423265400000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:54:30
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 1.423265e+05, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    142326.54000 142326.540  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142327 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.423265400000e+05, best bound 1.423265400000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:56:16
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 1.423265e+05, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    142326.54000 142326.540  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142327 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.423265400000e+05, best bound 1.423265400000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 02:59:13
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+02, 1e+03]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 1.423265e+05, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    142326.54000 142326.540  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142327 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.423265400000e+05, best bound 1.423265400000e+05, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:21:02
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:21:37
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:26:17
+
+Academic license - for non-commercial use only
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+No solution available
+Error: it isn't a multi-objective model
+No solution available
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:29:36
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:30:52
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:31:21
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:31:36
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 26 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 4
+
+Explored 0 nodes (58 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:31:59
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 03:56:21
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:04:24
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 15 rows, 105 columns and 196 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 15 rows, 104 columns, 195 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 24 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (24 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:11:25
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 2 rows, 105 columns and 105 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [1e+01, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 104 columns, 104 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 1 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (1 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:11:58
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 2 rows, 105 columns and 105 nonzeros
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:12:12
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 2 rows, 105 columns and 105 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [1e+01, 3e+02]
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 104 columns, 104 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.1768276e+02   1.325000e+01   0.000000e+00    128s
+       1    2.5659833e+02   0.000000e+00   0.000000e+00    128s
+
+Root relaxation: objective 2.565983e+02, 1 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -  140s
+
+Explored 0 nodes (1 simplex iterations) in 140.79 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:15:41
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 2 rows, 105 columns and 105 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [1e+01, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 104 columns, 104 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 1 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (1 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:17:17
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.04s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:17:41
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:18:03
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:18:19
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:18:37
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [1e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 117 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 2 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (2 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:18:53
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [1e+00, 3e+02]
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:20:01
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:25:36
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:25:56
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:29:50
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:29:59
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Explored 0 nodes (3 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:30:44
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 7 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 9
+
+Explored 0 nodes (19 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:32:40
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Found heuristic solution: objective 248.536
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.1768276e+02   1.525000e+01   0.000000e+00     72s
+       3    2.5659833e+02   0.000000e+00   0.000000e+00     72s
+
+Root relaxation: objective 2.565983e+02, 3 iterations, 0.00 seconds
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -  161s
+
+Explored 0 nodes (3 simplex iterations) in 161.21 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 256.598 248.536 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:36:29
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 7 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 9
+
+Explored 0 nodes (19 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:37:29
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 104 columns, 116 nonzeros
+Variable types: 0 continuous, 104 integer (91 binary)
+
+Root relaxation: objective 2.565983e+02, 5 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     256.5983293  256.59833  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 6
+
+Explored 0 nodes (15 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 256.598 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.565983293269e+02, best bound 2.565983293269e+02, gap 0.0000%
+
+Gurobi 7.5.1 (win64, Python) logging started 10/19/17 04:37:40
+
+Academic license - for non-commercial use only
+Changed value of parameter lazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 3 rows, 105 columns and 118 nonzeros
+Variable types: 0 continuous, 105 integer (91 binary)
+Coefficient statistics:
+  Matrix range     [6e-02, 1e+00]
+  Objective range  [5e-01, 2e+00]
+  Bounds range     [1e+00, 6e+01]
+  RHS range        [2e+00, 3e+02]
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Error: it isn't a multi-objective model
+Out of range for parameter value ObjNumber
+Error: it isn't a multi-objective model

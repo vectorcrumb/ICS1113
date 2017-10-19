@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nodos de Venta</name>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Domo Ingenieria</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6128779,-33.4998095,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Educacion</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6148466,-33.4980783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Comercial</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6120223,-33.4970829,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Agronomia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.609265,-33.4968593,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio College</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6106811,-33.5004917,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Humanidades</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6137121,-33.4971143,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio de Quimica</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6109655,-33.4988813,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Ciencias de la Salud</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6100214,-33.5002993,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Teologia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6106597,-33.4978166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Matematicas</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6094742,-33.4997849,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Enfermeria</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6129771,-33.4989484,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Odontologia</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6144094,-33.4976153,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Ciencias Sociales</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6099945,-33.4982505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Entrada</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -70.6153643,-33.4984921,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
