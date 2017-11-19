@@ -1,0 +1,263 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nodos de Venta</name>
+    <visibility>1</visibility>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Domo Ingenieria</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.612878,-33.499809,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Educacion</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.614847,-33.498078,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Comercial</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.612022,-33.497083,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Agronomia</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.609265,-33.496859,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio College</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.610681,-33.500492,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Humanidades</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.613712,-33.497114,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio de Quimica</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.610966,-33.498881,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Ciencias de la Salud</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.610021,-33.500299,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Teologia</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.610660,-33.497817,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Matematicas</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.609474,-33.499785,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sala Estudio Enfermeria</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.612977,-33.498948,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Odontologia</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.614409,-33.497615,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patio Ciencias Sociales</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.609994,-33.498250,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Entrada</name>
+      <visibility>1</visibility>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>-70.615364,-33.498492,0.000000</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+  <Document id="opt_paths">
+    <name>Optimal Path</name>
+    <description>Draws the optimal TSP solution</description>
+    <visibility>1</visibility>
+    <StyleMap id="line_styles">
+      <Pair>
+        <key>normal</key>
+        <Style id="line_normal">
+          <LineStyle>
+            <color>8f781414</color>
+            <width>5</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <Style id="line_highlight">
+          <LineStyle>
+            <color>8f781414</color>
+            <width>8</width>
+          </LineStyle>
+        </Style>
+      </Pair>
+    </StyleMap>
+    <Placemark id="p_0">
+      <name>path_0</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.610966,-33.498881,0.000000 -70.615364,-33.498492,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_1">
+      <name>path_1</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.615364,-33.498492,0.000000 -70.614409,-33.497615,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_2">
+      <name>path_2</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.614409,-33.497615,0.000000 -70.613712,-33.497114,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_3">
+      <name>path_3</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.613712,-33.497114,0.000000 -70.612022,-33.497083,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_4">
+      <name>path_4</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.612022,-33.497083,0.000000 -70.610660,-33.497817,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_5">
+      <name>path_5</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.610660,-33.497817,0.000000 -70.609265,-33.496859,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_6">
+      <name>path_6</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.609265,-33.496859,0.000000 -70.609994,-33.498250,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_7">
+      <name>path_7</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.609994,-33.498250,0.000000 -70.609474,-33.499785,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_8">
+      <name>path_8</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.609474,-33.499785,0.000000 -70.610681,-33.500492,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="p_9">
+      <name>path_9</name>
+      <visibility>1</visibility>
+      <styleUrl>#line_styles</styleUrl>
+      <LineString>
+        <coordinates>-70.610681,-33.500492,0.000000 -70.610966,-33.498881,0.000000</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
