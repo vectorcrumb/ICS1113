@@ -1,0 +1,15 @@
+Nombre,Codigo,pi,di,Di,ci2,epi,efi,evi
+Domo Ingenieria,ING,329,24,33,0.81,0.36,-0.26,-0.1
+Entrada,ENT,0,0,0,0,0,0,0
+Patio Ciencias Sociales,CSS,500,7,9,0.22,1.7,0,0
+Patio Humanidades,HUM,333,20,28,0.67,0.17,-0.17,0
+Patio Odontologia,ODO,350,10,14,0.33,1.67,0,0
+Patio Teologia,TEO,450,3,4,0.1,1.71,-0.86,0
+Patio de Quimica,QUI,450,20,28,0.67,3.75,0.83,0
+Sala Estudio Agronomia,AGR,500,30,42,1,0.42,0,0
+Sala Estudio Ciencias de la Salud,CCS,470,29,39,0.95,0.25,-0.25,0
+Sala Estudio College,COL,475,18,24,0.59,0.53,-0.64,-0.14
+Sala Estudio Comercial,COM,633,33,46,1.11,0.17,-0.84,0
+Sala Estudio Educacion,EDU,300,30,42,1,0.28,-0.83,0
+Sala Estudio Enfermeria,ENF,325,27,37,0.89,0.21,-0.42,0
+Sala Estudio Matematicas,MAT,500,40,56,1.33,0.42,0.42,0

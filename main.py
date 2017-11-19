@@ -143,14 +143,14 @@ costs = {i: cost_values[i] for i in range(n)}
 m = Model()
 sales_vars = m.addVars(costs.keys(), lb=di, ub=Di, obj=costs, vtype=GRB.INTEGER, name='p')
 variables = m.addVars(dist.keys(), obj=dist, vtype=GRB.BINARY, name='e')
+
 for i, j in variables.keys():
     variables[j, i] = variables[i, j]  # Edge in opposite direction is the same variable
 
 # Add 2nd degree constraint to each node
-# m.addConstrs(variables.sum(i, '*') == 2 for i in range(n))
-m.addConstr(variables.sum(1,'*') == 2, name='entry')
+m.addConstrs(variables.sum(i, '*') == 2 for i in range(n))
+# m.addConstr(variables.sum(1,'*') == 2, name='entry')
 # Add total sale constraints to sales
-# m.addConstr(sales_vars.sum(i) <= K for i in range(n))
 m.addConstr(quicksum(sales_vars[i] for i in range(n)) <= K, name='max_stock')
 # Add time constraint
 m.addConstr(quicksum(variables[i,j]*distances[i][j] for i,j in dist) <= T, name='max_time')
