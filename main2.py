@@ -6,6 +6,7 @@ from fastkml.styles import Style, LineStyle, StyleMap
 from shapely.geometry import LineString
 import pandas as pd
 from gurobipy import *
+from random import choice
 
 random.seed(1)
 
@@ -38,18 +39,18 @@ def distance(lat1, long1, lat2, long2):
 # Callback - use lazy constraints to eliminate sub-tours
 def subtourelim(model, where):
     if where == GRB.Callback.MIPSOL:
-        # make a list of edges selected in the solution
         vals = model.cbGetSolution(model._varsx)
         selected = tuplelist((i,j) for i,j in model._varsx.keys() if vals[i,j] > 0.5)
-        # find the shortest cycle in the selected edge list
         tour = subtour(selected)
         if len(tour) < n:
             not_tour = [node for node in list(visit_costs.keys()) if node not in tour]
             for jnu in not_tour:
-                # add subtour elimination constraint for every pair of cities in tour
-                model.cbLazy(quicksum(model._varsx[i,j] for i,j in itertools.combinations(tour, 2))
+                iters = itertools.combinations(tour, 2)
+                model.cbLazy(quicksum(model._varsx[i,j] for i,j in iters)
                              <= len(tour) - 1 + big_M *
-                             (len(tour) + 1 - quicksum(model._varsy[i] for i in tour) - model._varsy[jnu]))
+                             (len(tour) + 1 - sum(model._varsy[i] for i in iters) - model._varsy[jnu]))
+
+
 # Given a tuplelist of edges, find the shortest subtour
 def subtour(edges):
     unvisited = list(range(n))
@@ -86,7 +87,9 @@ df_pars = pd.read_csv(par)
 df_pars_cts = pd.read_csv(par_cts)
 # Obtain constants
 alphaval = df_pars_cts.alpha[0]
-k = df_pars_cts.k[0]
+betaval = df_pars_cts.beta[0]
+K = df_pars_cts.bk[0]
+K_min = df_pars_cts.sk[0]
 tau = df_pars_cts.tau[0]
 # Obtain parameters
 pi = list(df_pars.pi)
@@ -100,19 +103,14 @@ en = [0 for _ in range(len(efi))]
 # Create list of event modifiers throughout week
 ei = [[random.choice([epi[i], efi[i], en[i], evi[i], en[i]]) for j in range(5)] for i in range(len(en))]
 # Check feasibility within parameters
-if sum(di) > k:
+if sum(di) > K:
     print("Product availability is less than minimum total demand. Problem is infeasible!")
     exit(-2)
 
 
 # Definition of parameters
-# K = k
-# For nice simulation purposes
-K = (sum(di) + sum(Di))/2
-big_M = 2 * K
-velocity = 3
-T = tau * velocity
-cost_to_dist = velocity/alphaval
+# K = (sum(di) + sum(Di))/2
+big_M = 5 * K
 
 ## Prepare navigation variables
 # Calculate distances in between nodes. Nodes are alphabetically ordered by name. Matrix must
@@ -130,12 +128,12 @@ if n != len(en):
     exit(-1)
 
 # Distance costs - c_{ij}^1
-dist = {(i, j): distances[i][j] for i in range(n) for j in range(i)}
+dist = {(i, j): distances[i][j]*alphaval*betaval for i in range(n) for j in range(i)}
 # Selling benefits - Accompany z_i
-cost_values = [pi[i]*(1+ei[i][0])*cost_to_dist for i in range(n)]
+cost_values = [pi[i]*(1+choice(ei[i])) for i in range(n)]
 costs = {i: cost_values[i] for i in range(n)}
 # Visiting costs - c_{i}^2
-visit_costs = {i: ci2[i] for i in range(n)}
+visit_costs = {i: ci2[i]*alphaval for i in range(n)}
 
 # Create a model object and create variables
 m = Model()
@@ -152,24 +150,31 @@ for i in range(n):
     n_noi = [x for x in range(n) if x != i]
     m.addConstr(sum(arc_vars[i, j] for j in n_noi) == visit_vars[i])
     m.addConstr(sum(arc_vars[j, i] for j in n_noi) == visit_vars[i])
-# R2 Subtour elimination: Ocurrs in callback while optimizing
-# R3 Add stock constraints to sales
-m.addConstr(quicksum(sales_vars[i] for i in range(n)) <= K, name='max_stock')
-# R4 Add activation constraints
-# m.addConstrs(big_M*visit_vars[i] >= sales_vars[i] for i in range(n))
-# R5 Add lower bound upon activation constraint
-m.addConstrs(sales_vars[i] >= di[i] * visit_vars[i] for i in range(n))
-# R6 Total sale time constraint
-m.addConstr(quicksum(arc_vars[i, j] * distances[i][j] for i, j in dist) +
-            quicksum(visit_vars[i] * visit_costs[i] for i in range(n)) <= T, name='max_time')
-# R7 Start at node 0
+
+m.addConstrs(big_M*visit_vars[i] >= sales_vars[i] for i in range(n))
 m.addConstr(visit_vars[1] >= 1, name='entry')
+m.addConstrs(sales_vars[i] >= di[i] * visit_vars[i] for i in range(n))
+m.addConstr(sum(sales_vars[i] for i in range(n)) <= K, name='max_stock')
+m.addConstr(sum(sales_vars[i] for i in range(n)) >= K_min, name='min_stock')
+# R2 Subtour elimination: Occurs in callback while optimizing
+# R3 Add stock constraints to sales
+
+# R5 Add lower bound upon activation constraint
+
+# R6 Total sale time constraint
+# m.addConstr(betaval * quicksum(arc_vars[i, j] * distances[i][j] for i, j in dist) +
+#             quicksum(visit_vars[i] * visit_costs[i] for i in range(n)) <= tau, name='max_time')
+# R7 Start at node 0
+
+# R8 Activation constraints
+
 
 # Optimize model
 m._varsx = arc_vars
 m._varsy = visit_vars
 m.Params.lazyConstraints = 1
-m.setObjective(sales_vars.prod(costs) - (arc_vars.prod(dist) + visit_vars.prod(visit_costs))/cost_to_dist, GRB.MAXIMIZE)
+m.setObjective(sales_vars.prod(costs) - arc_vars.prod(dist) - visit_vars.prod(visit_costs), GRB.MAXIMIZE)
+
 m.optimize(subtourelim)
 
 vals = m.getAttr('x', arc_vars)
@@ -177,7 +182,6 @@ selected = tuplelist((i,j) for i,j in vals.keys() if vals[i,j] > 0.5)
 
 tour = subtour(selected)
 # assert len(tour) == n
-print('\n'*5, len(tour))
 
 print('')
 print('Optimal tour: {}'.format(str(tour)))
